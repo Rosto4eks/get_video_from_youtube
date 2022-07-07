@@ -1,0 +1,26 @@
+{
+  "name": "getvideo",
+  "version": "1.0.0",
+  "description": "download videos from youtube",
+  "main": "build/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/app.js"
+  },
+  "author": "Rosto4eks",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@types/ffmpeg-static": "^3.0.1",
+    "@types/fluent-ffmpeg": "^2.1.20",
+    "@types/node": "^18.0.1",
+    "@types/progress": "^2.0.5",
+    "@types/prompts": "^2.0.14",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "progress": "^2.0.3",
+    "prompts": "^2.4.2",
+    "typescript": "^4.7.4",
+    "ytdl-core": "^4.11.0"
+  }
+}
